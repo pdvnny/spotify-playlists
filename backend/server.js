@@ -47,11 +47,11 @@ const generateRandomString = function(length) {
     CONFIGURATIONS
  *******************************************/
 
-/* Database configuration */
-const database_uri = "mongodb+srv://pdunn91:kb2uu9z0hBluJvhf@volo-play-dev.hsbm6cs.mongodb.net/?retryWrites=true&w=majority";
-
 /* Import Config File */
 dotenv.config({ path: path.resolve(__dirname, '../.env') });
+
+/* Database configuration */
+const database_uri = process.env.MONGODB_DEV;
 
 /* Security/session configuration stuff */
 const stateKey = 'spotify_auth_state';

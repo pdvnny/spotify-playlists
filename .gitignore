@@ -1,0 +1,28 @@
+# Workspace files
+.idea/*
+notes.txt
+spotify_searcher_notes.md
+full_stack_app_with_spotify_api_notes.md
+temp/*
+Questions-for-expert.md
+
+# Directories with old work
+frontend/*
+views/*
+
+# Secret information files
+.env
+secrets.txt
+
+# Scratch work
+ref/*
+backend/scratch/*
+
+# Anything related to python scripts
+__pycache__/*
+python/*
+
+# Node packages
+client/node_modules/*
+backend/node_modules/*
+

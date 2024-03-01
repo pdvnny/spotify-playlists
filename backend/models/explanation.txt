@@ -1,0 +1,5 @@
+This is where you describe what your data looks like. If your website is a
+store, this is where you say what a product is or what a customer is.
+
+e.g., customer.js
+e.g., product.js
